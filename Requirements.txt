@@ -1,5 +1,5 @@
 #Command to submit spark job
-spark-submit --master local[*] app.py
+spark-submit --master local[*] Sayari_Spark_Assessment.py
 
 #External Libraries Used:
 fuzzywuzzy 
