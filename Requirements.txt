@@ -1,0 +1,15 @@
+#Command to submit spark job
+spark-submit --master local[*] app.py#external libraries used 
+
+#External Libraries Used:
+fuzzywuzzy 
+
+#Explanation:
+"FuzzyWuzzy" is a Python library for string matching and fuzzy string comparison. It provides various methods for comparing and measuring the similarity between strings, even when they are not an exact match.
+
+
+# Spark Packages
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, udf
+from fuzzywuzzy import fuzz
+from pyspark.sql.types import IntegerType
