@@ -1,1 +1,0 @@
-# Sayari-Spark-Assessment
