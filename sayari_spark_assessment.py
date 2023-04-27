@@ -5,7 +5,7 @@ from pyspark.sql.types import IntegerType
 
 spark = SparkSession.builder.appName("Sayari_Spark_Assessment").getOrCreate()
 
-ofac_original_df = spark.read.format("json").load("/content/ofac.jsonl")
+ofac_original_df = spark.read.format("json").load("ofac.jsonl")
 
 ofac_df = ofac_original_df.select(
                         col("addresses").alias("ofac_addresses"),
