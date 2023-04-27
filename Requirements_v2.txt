@@ -1,16 +1,6 @@
 #Command to submit spark job
 spark-submit --master local[*] Sayari_Assessment.py													 
 
-#External Libraries Used:
-Levenshtein
-
-
-#Explanation:
-Used Levenshtein for the 2nd version. It is faster & more simpler. Here only strings are compared meanwhile with Fuzzywuzzy provides better accuracy 
-
-
-# Spark Packages
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, udf
-from pyspark.sql.types import IntegerType
-import Levenshtein as lev
+pyspark
+pandas
+python-levenshtein
