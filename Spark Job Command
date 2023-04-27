@@ -1,0 +1,5 @@
+#Command to submit spark job
+spark-submit --master local[*] Sayari_Spark_Assessment.py
+
+#Command to submit spark job for V2
+spark-submit --master local[*] Sayari_Assessment.py
