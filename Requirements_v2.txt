@@ -1,6 +1,3 @@
-#Command to submit spark job
-spark-submit --master local[*] Sayari_Assessment.py													 
-
 pyspark
 pandas
 python-levenshtein
