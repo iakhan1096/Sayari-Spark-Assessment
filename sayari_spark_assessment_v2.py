@@ -4,7 +4,7 @@ from pyspark.sql.types import IntegerType
 import Levenshtein as lev
 
 
-spark = SparkSession.builder.appName("Sayari_Assessment").getOrCreate()
+spark = SparkSession.builder.appName("sayari_spark_assessment_v2").getOrCreate()
 
 ofac_original_df = spark.read.format("json").load("ofac.jsonl")
 
