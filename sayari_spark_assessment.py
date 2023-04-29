@@ -3,7 +3,7 @@ from pyspark.sql.functions import col, udf
 from fuzzywuzzy import fuzz
 from pyspark.sql.types import IntegerType
 
-spark = SparkSession.builder.appName("Sayari_Spark_Assessment").getOrCreate()
+spark = SparkSession.builder.appName("sayari_spark_assessment").getOrCreate()
 
 ofac_original_df = spark.read.format("json").load("ofac.jsonl")
 
